@@ -22,7 +22,10 @@ First cut is to do some simple get operations to work out what the notification 
 
 Simple dumb test idea: test routines that wait for 1 of each notifications then render a pass verdict, or fail after N minutes without success, to use as a test tool in automated build testing.
 
-I tend to like storing stuff behind JSON REST interfaces in DBs, so using something like JHipster to spin up data models, APIs, UIs and implementations would be reasonable. Using the RPC API wrapper library to get information and putting hte results into a reasonable model would be a useful sample.
+I tend to like storing stuff behind JSON REST interfaces in DBs, so using something like JHipster to spin up data models, APIs, UIs and implementations would be reasonable. Using the RPC API wrapper library to get information and putting hte results into a reasonable model would be a useful sample. I've linked the [schema I worked out for the block and TX below.](https://github.com/DavidLDawes/VerusdNotify/blob/master/images/schema.png)
+
+### Wallet Events
+Once we get a wallet event we need a simple go wrapper for gettransaction() so we can look up the TXID and record things. The schema for TXs seems reasonable for this, if maybe a bit tedious to iplement properly.
 
 In any event, the plan is to do useful work when the events fire at the very least to demonstrate proper operation and how-to steps for persisting the data would be useful.
 
