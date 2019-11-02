@@ -25,6 +25,6 @@ I tend to like storing stuff behind JSON REST interfaces in DBs, so using someth
 
 In any event, the plan is to do useful work when the events fire at the very least to demonstrate proper operation and how-to steps for persisting the data would be useful.
 ## Credit
-Asher Dawes discussed approaches to this sort of thing and went and began building a go out library. Asher pointed out the event stuff and asked about wiring it up somehow. This work addresses that thought directly, so Asher deserves co-creator credit for this at the very least.
+Asher Dawes discussed approaches to this sort of thing and went and began building out a go library. Asher pointed out the event stuff and asked about wiring it up somehow. This work addresses that thought directly, so Asher deserves co-creator credit for this at the very least.
 # Copyright
-Copyright 2019 David Dawes & Asher Dawes, All Rights Reserved - will consider open sourcing this if it ever actually does anything
+Copyright 2019 David Dawes & Asher Dawes - licensed under the MIT License 
