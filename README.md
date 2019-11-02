@@ -1,4 +1,4 @@
-# VerusdEvents
+# VerusdNotify
 Handle verusd events using a go server
 
 ## What
