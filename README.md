@@ -27,4 +27,4 @@ In any event, the plan is to do useful work when the events fire at the very lea
 ## Credit
 Asher Dawes discussed approaches to this sort of thing and went and began building out a go library. Asher pointed out the event stuff and asked about wiring it up somehow. This work addresses that thought directly, so Asher deserves co-creator credit for this at the very least.
 # Copyright
-Copyright 2019 David Dawes & Asher Dawes - licensed under the MIT License 
+[Copyright 2019 David Dawes & Asher Dawes - licensed under the MIT License](https://github.com/DavidLDawes/VerusdNotify/blob/master/LICENSE)
