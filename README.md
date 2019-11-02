@@ -25,6 +25,10 @@ Simple dumb test idea: test routines that wait for 1 of each notifications then 
 I tend to like storing stuff behind JSON REST interfaces in DBs, so using something like JHipster to spin up data models, APIs, UIs and implementations would be reasonable. Using the RPC API wrapper library to get information and putting hte results into a reasonable model would be a useful sample.
 
 In any event, the plan is to do useful work when the events fire at the very least to demonstrate proper operation and how-to steps for persisting the data would be useful.
+
+## Schema
+Defined this using JHDL
+![Block and TX Schema](https://github.com/DavidLDawes/VerusdNotify/blob/master/images/schema.png)
 ## Credit
 Asher Dawes discussed approaches to this sort of thing and went and began building out a go library. Asher pointed out the event stuff and asked about wiring it up somehow. This work addresses that thought directly, so Asher deserves co-creator credit for this at the very least.
 # Copyright
