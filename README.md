@@ -11,7 +11,7 @@ By passing in a curl command to hit the endpoint on the localhost, we can run th
 
 Launch the go program - you can simply execute "go run VerusdEvents" in the src directory.
 Next, when launching verusd, use the -blocknotify and -walletnotify command line options to include curl commands that send the passed in parameter (using %s) off to the TCP end point provided by the VerusdEvents.go program.
-verus -blocknotify=`curl localhost:8080/block?blockhash=%s` -walletnotify=`curl localhost:8080/wallet?txid=%s`
+verus -blocknotify='curl localhost:8080/block?blockhash=%s' -walletnotify='curl localhost:8080/wallet?txid=%s'
 
 ## Version 0
 Written in go, this app currently doesn't do anything except echo the input back as the response. That allows you to hit the end pont from a browser and see your input. Whee. Call this the version 0 implementation.
